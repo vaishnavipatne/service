@@ -1,3 +1,6 @@
-resource = "google"{
-name = "vaishnavi"
+teraform{
+backend "gcs"{
+bucket = ""
+prefix = "teraform/state"
+}
 }
