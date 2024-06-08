@@ -5,7 +5,7 @@ provider "google"{
 resource "google_compute_instance" "default" {
   name         = "my-instance"
   machine_type = "n2-standard-2"
-  zone         = "us-central1-a"
+  zone         = "us-central1-b"
 
   tags = ["foo", "bar"]
 
