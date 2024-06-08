@@ -1,5 +1,5 @@
 provider "google"{
-    project = "qwiklabs-gcp-02-da400ee45fb7"
+    project = "qwiklabs-gcp-04-0c57f1d108ce"
 }
 
 resource "google_compute_instance" "default" {
