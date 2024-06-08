@@ -1,6 +1,6 @@
 terraform{
 backend "gcs" {
-    bucket = "statebucket-mh"
+    bucket = "maharashtra-mh"
     prefix = "terraform/state"
   }
 }

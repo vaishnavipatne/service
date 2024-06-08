@@ -1,11 +1,11 @@
 provider "google"{
-    project = "	qwiklabs-gcp-01-039a589988d5"
+    project = "qwiklabs-gcp-02-01bfd72931c2"
 }
 
 resource "google_compute_instance" "default" {
   name         = "my-instance"
   machine_type = "n2-standard-2"
-  zone         = "us-central1-b"
+  zone         = "us-central1-a"
 
   tags = ["foo", "bar"]
 
